@@ -1,0 +1,2 @@
+# ideagen
+Generate coding ideas!!!
