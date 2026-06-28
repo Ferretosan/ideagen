@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=ba98e2&c2=3a4c6e&gt=l&gd=dcr
+  */
+  background: #ba98e2;
+  background: linear-gradient(90deg, #ba98e2, #3a4c6e);
+  color: white;
+}
+
+h1 {
+  font-family: "Alien Block";
+  font-size: 1000%;
+  /* -webkit-text-stroke: 10px black; */
+  text-shadow: 0px 25px black;
+  margin: 0;
+}
+
+@media (max-width: 920px) {
+  h1 {
+    font-size: 500%;
+    text-shadow: 0px 15px black;
+    margin-bottom: 10px;
+  }
+}
+
+button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 100ms linear;
+  margin: 0;
+  font-family: "Outfit";
+}
+
+button:hover {
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  scale: 1.1;
+  margin: 0px 10px 0px 10px;
+}
+
+button:active {
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  scale: 0.9;
+}
+
+.content {
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.282);
+  padding: 10px 30px;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: white;
+}
+
+p {
+  font-family: "Outfit";
+  font-size: 17px;
+}
